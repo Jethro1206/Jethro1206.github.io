@@ -14,7 +14,16 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
-
+.contact-link {
+  position: relative;
+  text-decoration: none;
+  color: blue;
+}
+.contact-info .contact-link:hover {
+  max-width: none; /* Bỏ giới hạn chiều rộng */
+  overflow: visible; /* Hiển thị toàn bộ email */
+  background-color: transparent; /* Nền giữ nguyên */
+}
 :root {
 
   /**
@@ -1869,25 +1878,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .social-list { justify-content: center; }
 
-
-  .contact-link {
-    position: relative;
-    text-decoration: none;
-    color: blue;
-  }
-  
-  .contact-link:hover::after {
-    content: attr(href);
-    position: absolute;
-    top: 150%; /* Đẩy tooltip xuống dưới liên kết */
-    left: 0;
-    background-color: #000;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    white-space: nowrap;
-    z-index: 10;
-  }
   /**
 	 * RESUME
 	 */
