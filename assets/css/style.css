@@ -553,9 +553,9 @@ main {
 
 .service-icon-box img { margin: auto; }
 
-.service-content-box { text-align: center; }
+.service-content-box { text-align: left; }
 
-.service-item-title { margin-bottom: 5px; }
+.service-item-title { margin-bottom: 7px; }
 
 .service-item-text {
   color: var(--light-gray);
