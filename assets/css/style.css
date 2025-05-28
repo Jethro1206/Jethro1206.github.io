@@ -535,7 +535,7 @@ main {
   position: relative;
   background: var(--border-gradient-onyx);
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
 }
@@ -555,7 +555,7 @@ main {
 
 .service-content-box { text-align: center; }
 
-.service-item-title { margin-bottom: 7px; }
+.service-item-title { margin-bottom: 5px; }
 
 .service-item-text {
   color: var(--light-gray);
