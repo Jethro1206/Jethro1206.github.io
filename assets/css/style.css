@@ -1889,6 +1889,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: aqua;
   display: inline;
   }
+.leetcode {
+  color: rgb(233, 129, 11);
+  display: inline;
+  }
 .live {
   color: white;
   display: inline;
