@@ -1893,6 +1893,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: rgb(233, 129, 11);
   display: inline;
   }
+.cses {
+  color: rgb(77, 57, 57);
+  display: inline;
+  }
 .live {
   color: white;
   display: inline;
