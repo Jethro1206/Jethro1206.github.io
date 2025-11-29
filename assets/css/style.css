@@ -555,7 +555,7 @@ main {
 
 .service-content-box { text-align: center; }
 
-.service-item-title { margin-bottom: 7px; }
+.service-item-title { margin-bottom: 10px; }
 
 .service-item-text {
   color: var(--light-gray);
