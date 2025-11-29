@@ -1913,34 +1913,3 @@ textarea.form-input::-webkit-resizer { display: none; }
 .xuatsac {
   color: yellow
 }
-/* Mặc định: icon trắng */
-.social-link ion-icon {
-  color: #ffffff;
-  font-size: 24px; /* tuỳ chỉnh */
-  transition: 0.25s;
-}
-
-/* Discord */
-.social-item:nth-child(1) ion-icon {
-  color: #5865F2; /* Discord blurple */
-}
-
-/* GitHub */
-.social-item:nth-child(2) ion-icon {
-  color: #181717; /* GitHub black */
-}
-
-/* Facebook */
-.social-item:nth-child(3) ion-icon {
-  color: #1877F2; /* Facebook blue */
-}
-
-/* Instagram (gradient không áp dụng được trên ion-icon, dùng hồng đại diện) */
-.social-item:nth-child(4) ion-icon {
-  color: #E1306C; /* Instagram hồng tím */
-}
-
-/* Spotify */
-.social-item:nth-child(5) ion-icon {
-  color: #1DB954; /* Spotify xanh lá */
-}
