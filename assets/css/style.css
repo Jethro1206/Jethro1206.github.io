@@ -1897,6 +1897,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: rgb(209, 220, 49);
   display: inline;
   }
+.hackerrank {
+  color: rgb(0, 110, 0);
+  display: inline;
+  }
 .live {
   color: white;
   display: inline;
